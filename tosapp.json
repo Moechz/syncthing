@@ -66,13 +66,6 @@
       "created": "first start",
       "growth": "small; grows with folders/devices",
       "lifecycle": "never overwritten; without it the device identity changes"
-    },
-    {
-      "path": "data/data",
-      "purpose": "default synchronized folder",
-      "created": "by the user",
-      "growth": "grows with synced files",
-      "lifecycle": "owned by the user; back it up"
     }
   ],
   "official": "https://github.com/syncthing/syncthing/wiki",
