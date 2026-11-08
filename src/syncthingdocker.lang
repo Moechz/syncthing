@@ -1,0 +1,195 @@
+# ===========================================================================
+# Multilingual file for the TOS 7 Docker application "syncthingdocker".
+# File name MUST be: <appid>.lang.  23-language superset (14 required by TOS).
+# The App Center picks the text matching the user's device language;
+# untranslated nodes fall back to English, which the official guide allows.
+# Fields: name (app title), auth (upstream author), descript (up to 512
+# chars), release_note, important (up to 512 chars).
+# Translations come from tosapp.json "translations"; run
+#   tosdocker lang <app>          to re-render this file
+#   tosdocker translate <app>     to see what still needs translating
+# ===========================================================================
+[en-us]
+name         = "Syncthing"
+auth         = "syncthing"
+version      = "@@VERSION@@"
+descript     = "Syncthing is a continuous file synchronization program. It synchronizes files between your NAS and other devices directly, with encrypted transport and no central cloud. This package runs the official Docker Hub image as a non-root container; configuration and synchronized data stay in the application data folder, and the web UI is served on port 8384."
+release_note = "1. First release: Syncthing 2.1.7 from Docker Hub, x86_64 + aarch64, non-root."
+important    = "Open the web UI and set a GUI username/password on first use. Add your devices and folders in the UI; by default only the web port 8384 is published, so LAN sync uses discovery/relay - for direct sync you would need the sync ports (22000/tcp+udp, 21027/udp), which this package does not publish. Config and data live in DockerAppData/syncthingdocker. Back them up before uninstalling with data removal. Needs DockerEngine. Plain HTTP on the LAN."
+
+[zh-cn]
+name         = "Syncthing"
+auth         = "syncthing"
+version      = "@@VERSION@@"
+descript     = "Syncthing 是一个持续文件同步工具，可以让 NAS 与其他设备之间直接同步文件，传输加密、不经过中心云。本应用使用 Docker Hub 官方镜像并以非 root 用户运行；配置与同步数据都保存在应用数据目录，网页界面监听 8384。"
+release_note = "1. 首个版本：Syncthing 2.1.7，来自 Docker Hub，x86_64 + aarch64 双包，非 root。"
+important    = "首次打开网页后请设置 GUI 用户名和密码。在界面里添加设备与文件夹；本包默认只发布网页端口 8384，局域网同步走发现/中继，若要直连同步还需要 22000/tcp+udp 与 21027/udp（本包未发布）。配置与数据在 DockerAppData/syncthingdocker，卸载删除数据前请备份。需要 DockerEngine。应用通过局域网 HTTP 访问。"
+
+[zh-hk]
+name         = "Syncthing"
+auth         = "syncthing"
+version      = "@@VERSION@@"
+descript     = "Syncthing 是一個持續檔案同步工具，可以讓 NAS 與其他裝置之間直接同步檔案，傳輸加密、不經過中心雲。本應用使用 Docker Hub 官方鏡像並以非 root 使用者運行；設定與同步資料都保存在應用資料目錄，網頁介面監聽 8384。"
+release_note = "1. 首個版本：Syncthing 2.1.7，來自 Docker Hub，x86_64 + aarch64 雙包，非 root。"
+important    = "首次開啟網頁後請設定 GUI 使用者名稱和密碼。在介面裡新增裝置與資料夾；本包預設只發佈網頁埠 8384，局域網同步走發現/中繼，若要直連同步還需要 22000/tcp+udp 與 21027/udp（本包未發佈）。設定與資料在 DockerAppData/syncthingdocker，解除安裝刪除資料前請備份。需要 DockerEngine。應用透過局域網 HTTP 存取。"
+
+[fr-fr]
+name         = "Syncthing"
+auth         = "syncthing"
+version      = "@@VERSION@@"
+descript     = "Syncthing is a continuous file synchronization program. It synchronizes files between your NAS and other devices directly, with encrypted transport and no central cloud. This package runs the official Docker Hub image as a non-root container; configuration and synchronized data stay in the application data folder, and the web UI is served on port 8384."
+release_note = "1. First release: Syncthing 2.1.7 from Docker Hub, x86_64 + aarch64, non-root."
+important    = "Open the web UI and set a GUI username/password on first use. Add your devices and folders in the UI; by default only the web port 8384 is published, so LAN sync uses discovery/relay - for direct sync you would need the sync ports (22000/tcp+udp, 21027/udp), which this package does not publish. Config and data live in DockerAppData/syncthingdocker. Back them up before uninstalling with data removal. Needs DockerEngine. Plain HTTP on the LAN."
+
+[de-de]
+name         = "Syncthing"
+auth         = "syncthing"
+version      = "@@VERSION@@"
+descript     = "Syncthing is a continuous file synchronization program. It synchronizes files between your NAS and other devices directly, with encrypted transport and no central cloud. This package runs the official Docker Hub image as a non-root container; configuration and synchronized data stay in the application data folder, and the web UI is served on port 8384."
+release_note = "1. First release: Syncthing 2.1.7 from Docker Hub, x86_64 + aarch64, non-root."
+important    = "Open the web UI and set a GUI username/password on first use. Add your devices and folders in the UI; by default only the web port 8384 is published, so LAN sync uses discovery/relay - for direct sync you would need the sync ports (22000/tcp+udp, 21027/udp), which this package does not publish. Config and data live in DockerAppData/syncthingdocker. Back them up before uninstalling with data removal. Needs DockerEngine. Plain HTTP on the LAN."
+
+[it-it]
+name         = "Syncthing"
+auth         = "syncthing"
+version      = "@@VERSION@@"
+descript     = "Syncthing is a continuous file synchronization program. It synchronizes files between your NAS and other devices directly, with encrypted transport and no central cloud. This package runs the official Docker Hub image as a non-root container; configuration and synchronized data stay in the application data folder, and the web UI is served on port 8384."
+release_note = "1. First release: Syncthing 2.1.7 from Docker Hub, x86_64 + aarch64, non-root."
+important    = "Open the web UI and set a GUI username/password on first use. Add your devices and folders in the UI; by default only the web port 8384 is published, so LAN sync uses discovery/relay - for direct sync you would need the sync ports (22000/tcp+udp, 21027/udp), which this package does not publish. Config and data live in DockerAppData/syncthingdocker. Back them up before uninstalling with data removal. Needs DockerEngine. Plain HTTP on the LAN."
+
+[es-es]
+name         = "Syncthing"
+auth         = "syncthing"
+version      = "@@VERSION@@"
+descript     = "Syncthing is a continuous file synchronization program. It synchronizes files between your NAS and other devices directly, with encrypted transport and no central cloud. This package runs the official Docker Hub image as a non-root container; configuration and synchronized data stay in the application data folder, and the web UI is served on port 8384."
+release_note = "1. First release: Syncthing 2.1.7 from Docker Hub, x86_64 + aarch64, non-root."
+important    = "Open the web UI and set a GUI username/password on first use. Add your devices and folders in the UI; by default only the web port 8384 is published, so LAN sync uses discovery/relay - for direct sync you would need the sync ports (22000/tcp+udp, 21027/udp), which this package does not publish. Config and data live in DockerAppData/syncthingdocker. Back them up before uninstalling with data removal. Needs DockerEngine. Plain HTTP on the LAN."
+
+[hu-hu]
+name         = "Syncthing"
+auth         = "syncthing"
+version      = "@@VERSION@@"
+descript     = "Syncthing is a continuous file synchronization program. It synchronizes files between your NAS and other devices directly, with encrypted transport and no central cloud. This package runs the official Docker Hub image as a non-root container; configuration and synchronized data stay in the application data folder, and the web UI is served on port 8384."
+release_note = "1. First release: Syncthing 2.1.7 from Docker Hub, x86_64 + aarch64, non-root."
+important    = "Open the web UI and set a GUI username/password on first use. Add your devices and folders in the UI; by default only the web port 8384 is published, so LAN sync uses discovery/relay - for direct sync you would need the sync ports (22000/tcp+udp, 21027/udp), which this package does not publish. Config and data live in DockerAppData/syncthingdocker. Back them up before uninstalling with data removal. Needs DockerEngine. Plain HTTP on the LAN."
+
+[ja-jp]
+name         = "Syncthing"
+auth         = "syncthing"
+version      = "@@VERSION@@"
+descript     = "Syncthing is a continuous file synchronization program. It synchronizes files between your NAS and other devices directly, with encrypted transport and no central cloud. This package runs the official Docker Hub image as a non-root container; configuration and synchronized data stay in the application data folder, and the web UI is served on port 8384."
+release_note = "1. First release: Syncthing 2.1.7 from Docker Hub, x86_64 + aarch64, non-root."
+important    = "Open the web UI and set a GUI username/password on first use. Add your devices and folders in the UI; by default only the web port 8384 is published, so LAN sync uses discovery/relay - for direct sync you would need the sync ports (22000/tcp+udp, 21027/udp), which this package does not publish. Config and data live in DockerAppData/syncthingdocker. Back them up before uninstalling with data removal. Needs DockerEngine. Plain HTTP on the LAN."
+
+[ko-kr]
+name         = "Syncthing"
+auth         = "syncthing"
+version      = "@@VERSION@@"
+descript     = "Syncthing is a continuous file synchronization program. It synchronizes files between your NAS and other devices directly, with encrypted transport and no central cloud. This package runs the official Docker Hub image as a non-root container; configuration and synchronized data stay in the application data folder, and the web UI is served on port 8384."
+release_note = "1. First release: Syncthing 2.1.7 from Docker Hub, x86_64 + aarch64, non-root."
+important    = "Open the web UI and set a GUI username/password on first use. Add your devices and folders in the UI; by default only the web port 8384 is published, so LAN sync uses discovery/relay - for direct sync you would need the sync ports (22000/tcp+udp, 21027/udp), which this package does not publish. Config and data live in DockerAppData/syncthingdocker. Back them up before uninstalling with data removal. Needs DockerEngine. Plain HTTP on the LAN."
+
+[pl-pl]
+name         = "Syncthing"
+auth         = "syncthing"
+version      = "@@VERSION@@"
+descript     = "Syncthing is a continuous file synchronization program. It synchronizes files between your NAS and other devices directly, with encrypted transport and no central cloud. This package runs the official Docker Hub image as a non-root container; configuration and synchronized data stay in the application data folder, and the web UI is served on port 8384."
+release_note = "1. First release: Syncthing 2.1.7 from Docker Hub, x86_64 + aarch64, non-root."
+important    = "Open the web UI and set a GUI username/password on first use. Add your devices and folders in the UI; by default only the web port 8384 is published, so LAN sync uses discovery/relay - for direct sync you would need the sync ports (22000/tcp+udp, 21027/udp), which this package does not publish. Config and data live in DockerAppData/syncthingdocker. Back them up before uninstalling with data removal. Needs DockerEngine. Plain HTTP on the LAN."
+
+[ru-ru]
+name         = "Syncthing"
+auth         = "syncthing"
+version      = "@@VERSION@@"
+descript     = "Syncthing is a continuous file synchronization program. It synchronizes files between your NAS and other devices directly, with encrypted transport and no central cloud. This package runs the official Docker Hub image as a non-root container; configuration and synchronized data stay in the application data folder, and the web UI is served on port 8384."
+release_note = "1. First release: Syncthing 2.1.7 from Docker Hub, x86_64 + aarch64, non-root."
+important    = "Open the web UI and set a GUI username/password on first use. Add your devices and folders in the UI; by default only the web port 8384 is published, so LAN sync uses discovery/relay - for direct sync you would need the sync ports (22000/tcp+udp, 21027/udp), which this package does not publish. Config and data live in DockerAppData/syncthingdocker. Back them up before uninstalling with data removal. Needs DockerEngine. Plain HTTP on the LAN."
+
+[tr-tr]
+name         = "Syncthing"
+auth         = "syncthing"
+version      = "@@VERSION@@"
+descript     = "Syncthing is a continuous file synchronization program. It synchronizes files between your NAS and other devices directly, with encrypted transport and no central cloud. This package runs the official Docker Hub image as a non-root container; configuration and synchronized data stay in the application data folder, and the web UI is served on port 8384."
+release_note = "1. First release: Syncthing 2.1.7 from Docker Hub, x86_64 + aarch64, non-root."
+important    = "Open the web UI and set a GUI username/password on first use. Add your devices and folders in the UI; by default only the web port 8384 is published, so LAN sync uses discovery/relay - for direct sync you would need the sync ports (22000/tcp+udp, 21027/udp), which this package does not publish. Config and data live in DockerAppData/syncthingdocker. Back them up before uninstalling with data removal. Needs DockerEngine. Plain HTTP on the LAN."
+
+[pt-pt]
+name         = "Syncthing"
+auth         = "syncthing"
+version      = "@@VERSION@@"
+descript     = "Syncthing is a continuous file synchronization program. It synchronizes files between your NAS and other devices directly, with encrypted transport and no central cloud. This package runs the official Docker Hub image as a non-root container; configuration and synchronized data stay in the application data folder, and the web UI is served on port 8384."
+release_note = "1. First release: Syncthing 2.1.7 from Docker Hub, x86_64 + aarch64, non-root."
+important    = "Open the web UI and set a GUI username/password on first use. Add your devices and folders in the UI; by default only the web port 8384 is published, so LAN sync uses discovery/relay - for direct sync you would need the sync ports (22000/tcp+udp, 21027/udp), which this package does not publish. Config and data live in DockerAppData/syncthingdocker. Back them up before uninstalling with data removal. Needs DockerEngine. Plain HTTP on the LAN."
+
+[ar-sa]
+name         = "Syncthing"
+auth         = "syncthing"
+version      = "@@VERSION@@"
+descript     = "Syncthing is a continuous file synchronization program. It synchronizes files between your NAS and other devices directly, with encrypted transport and no central cloud. This package runs the official Docker Hub image as a non-root container; configuration and synchronized data stay in the application data folder, and the web UI is served on port 8384."
+release_note = "1. First release: Syncthing 2.1.7 from Docker Hub, x86_64 + aarch64, non-root."
+important    = "Open the web UI and set a GUI username/password on first use. Add your devices and folders in the UI; by default only the web port 8384 is published, so LAN sync uses discovery/relay - for direct sync you would need the sync ports (22000/tcp+udp, 21027/udp), which this package does not publish. Config and data live in DockerAppData/syncthingdocker. Back them up before uninstalling with data removal. Needs DockerEngine. Plain HTTP on the LAN."
+
+[cs-cz]
+name         = "Syncthing"
+auth         = "syncthing"
+version      = "@@VERSION@@"
+descript     = "Syncthing is a continuous file synchronization program. It synchronizes files between your NAS and other devices directly, with encrypted transport and no central cloud. This package runs the official Docker Hub image as a non-root container; configuration and synchronized data stay in the application data folder, and the web UI is served on port 8384."
+release_note = "1. First release: Syncthing 2.1.7 from Docker Hub, x86_64 + aarch64, non-root."
+important    = "Open the web UI and set a GUI username/password on first use. Add your devices and folders in the UI; by default only the web port 8384 is published, so LAN sync uses discovery/relay - for direct sync you would need the sync ports (22000/tcp+udp, 21027/udp), which this package does not publish. Config and data live in DockerAppData/syncthingdocker. Back them up before uninstalling with data removal. Needs DockerEngine. Plain HTTP on the LAN."
+
+[he-il]
+name         = "Syncthing"
+auth         = "syncthing"
+version      = "@@VERSION@@"
+descript     = "Syncthing is a continuous file synchronization program. It synchronizes files between your NAS and other devices directly, with encrypted transport and no central cloud. This package runs the official Docker Hub image as a non-root container; configuration and synchronized data stay in the application data folder, and the web UI is served on port 8384."
+release_note = "1. First release: Syncthing 2.1.7 from Docker Hub, x86_64 + aarch64, non-root."
+important    = "Open the web UI and set a GUI username/password on first use. Add your devices and folders in the UI; by default only the web port 8384 is published, so LAN sync uses discovery/relay - for direct sync you would need the sync ports (22000/tcp+udp, 21027/udp), which this package does not publish. Config and data live in DockerAppData/syncthingdocker. Back them up before uninstalling with data removal. Needs DockerEngine. Plain HTTP on the LAN."
+
+[id-id]
+name         = "Syncthing"
+auth         = "syncthing"
+version      = "@@VERSION@@"
+descript     = "Syncthing is a continuous file synchronization program. It synchronizes files between your NAS and other devices directly, with encrypted transport and no central cloud. This package runs the official Docker Hub image as a non-root container; configuration and synchronized data stay in the application data folder, and the web UI is served on port 8384."
+release_note = "1. First release: Syncthing 2.1.7 from Docker Hub, x86_64 + aarch64, non-root."
+important    = "Open the web UI and set a GUI username/password on first use. Add your devices and folders in the UI; by default only the web port 8384 is published, so LAN sync uses discovery/relay - for direct sync you would need the sync ports (22000/tcp+udp, 21027/udp), which this package does not publish. Config and data live in DockerAppData/syncthingdocker. Back them up before uninstalling with data removal. Needs DockerEngine. Plain HTTP on the LAN."
+
+[nb-no]
+name         = "Syncthing"
+auth         = "syncthing"
+version      = "@@VERSION@@"
+descript     = "Syncthing is a continuous file synchronization program. It synchronizes files between your NAS and other devices directly, with encrypted transport and no central cloud. This package runs the official Docker Hub image as a non-root container; configuration and synchronized data stay in the application data folder, and the web UI is served on port 8384."
+release_note = "1. First release: Syncthing 2.1.7 from Docker Hub, x86_64 + aarch64, non-root."
+important    = "Open the web UI and set a GUI username/password on first use. Add your devices and folders in the UI; by default only the web port 8384 is published, so LAN sync uses discovery/relay - for direct sync you would need the sync ports (22000/tcp+udp, 21027/udp), which this package does not publish. Config and data live in DockerAppData/syncthingdocker. Back them up before uninstalling with data removal. Needs DockerEngine. Plain HTTP on the LAN."
+
+[nl-nl]
+name         = "Syncthing"
+auth         = "syncthing"
+version      = "@@VERSION@@"
+descript     = "Syncthing is a continuous file synchronization program. It synchronizes files between your NAS and other devices directly, with encrypted transport and no central cloud. This package runs the official Docker Hub image as a non-root container; configuration and synchronized data stay in the application data folder, and the web UI is served on port 8384."
+release_note = "1. First release: Syncthing 2.1.7 from Docker Hub, x86_64 + aarch64, non-root."
+important    = "Open the web UI and set a GUI username/password on first use. Add your devices and folders in the UI; by default only the web port 8384 is published, so LAN sync uses discovery/relay - for direct sync you would need the sync ports (22000/tcp+udp, 21027/udp), which this package does not publish. Config and data live in DockerAppData/syncthingdocker. Back them up before uninstalling with data removal. Needs DockerEngine. Plain HTTP on the LAN."
+
+[sv-se]
+name         = "Syncthing"
+auth         = "syncthing"
+version      = "@@VERSION@@"
+descript     = "Syncthing is a continuous file synchronization program. It synchronizes files between your NAS and other devices directly, with encrypted transport and no central cloud. This package runs the official Docker Hub image as a non-root container; configuration and synchronized data stay in the application data folder, and the web UI is served on port 8384."
+release_note = "1. First release: Syncthing 2.1.7 from Docker Hub, x86_64 + aarch64, non-root."
+important    = "Open the web UI and set a GUI username/password on first use. Add your devices and folders in the UI; by default only the web port 8384 is published, so LAN sync uses discovery/relay - for direct sync you would need the sync ports (22000/tcp+udp, 21027/udp), which this package does not publish. Config and data live in DockerAppData/syncthingdocker. Back them up before uninstalling with data removal. Needs DockerEngine. Plain HTTP on the LAN."
+
+[th-th]
+name         = "Syncthing"
+auth         = "syncthing"
+version      = "@@VERSION@@"
+descript     = "Syncthing is a continuous file synchronization program. It synchronizes files between your NAS and other devices directly, with encrypted transport and no central cloud. This package runs the official Docker Hub image as a non-root container; configuration and synchronized data stay in the application data folder, and the web UI is served on port 8384."
+release_note = "1. First release: Syncthing 2.1.7 from Docker Hub, x86_64 + aarch64, non-root."
+important    = "Open the web UI and set a GUI username/password on first use. Add your devices and folders in the UI; by default only the web port 8384 is published, so LAN sync uses discovery/relay - for direct sync you would need the sync ports (22000/tcp+udp, 21027/udp), which this package does not publish. Config and data live in DockerAppData/syncthingdocker. Back them up before uninstalling with data removal. Needs DockerEngine. Plain HTTP on the LAN."
+
+[vi-vn]
+name         = "Syncthing"
+auth         = "syncthing"
+version      = "@@VERSION@@"
+descript     = "Syncthing is a continuous file synchronization program. It synchronizes files between your NAS and other devices directly, with encrypted transport and no central cloud. This package runs the official Docker Hub image as a non-root container; configuration and synchronized data stay in the application data folder, and the web UI is served on port 8384."
+release_note = "1. First release: Syncthing 2.1.7 from Docker Hub, x86_64 + aarch64, non-root."
+important    = "Open the web UI and set a GUI username/password on first use. Add your devices and folders in the UI; by default only the web port 8384 is published, so LAN sync uses discovery/relay - for direct sync you would need the sync ports (22000/tcp+udp, 21027/udp), which this package does not publish. Config and data live in DockerAppData/syncthingdocker. Back them up before uninstalling with data removal. Needs DockerEngine. Plain HTTP on the LAN."
+
